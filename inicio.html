@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porteño</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#" id="toggle-barrios">Barrios</a></li>
+        <li><a href="#" id="toggle-comunas">Comunas</a></li>
+      </nav>
+    </header>
+    <main>
+      <h1>Porteño</h1>
+      <p>Conoce los barrios y atractivos Porteños</p>
+
+      <section class="presentation">
+        <div class="part1">
+          <img src="/assets/ba.png" class="ba" alt="Buenos Aires" />
+        </div>
+        <div class="part2">
+          <p>"Descubre el Alma Porteña"</p>
+        </div>
+      </section>
+
+			<section>
+				<h3>Buscar Barrio</h3>
+				<input type="text" id="searchBarrio" placeholder="Barrio...">
+			</section>
+
+      <div id="container-cards"></div>
+    </main>
+
+    <footer>
+      <p>CopyRigth Rodrigo Hernán Saucedo</p>
+    </footer>
+    <!-- Scripts -->
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
